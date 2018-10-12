@@ -11,7 +11,7 @@ def numerical_sort(value):
 
 def mask(base_root, labels_path, input_config='out_lesion/', th=0.5):
 
-    results_path = base_root + 'results/'
+    results_path = base_root + '/results/'
 
     input_images_path = results_path + input_config
     output_images_path = results_path + 'masked_' + input_config
